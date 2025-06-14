@@ -1,0 +1,46 @@
+{
+  "name": "vue-srt-video-player",
+  "version": "1.0.0",
+  "description": "A Vue 3 component that plays video files with SRT subtitles and cue markers",
+  "main": "dist/vue-srt-video-player.umd.js",
+  "module": "dist/vue-srt-video-player.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-srt-video-player.es.js",
+      "require": "./dist/vue-srt-video-player.umd.js",
+      "style": "./dist/style.css"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "src",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "keywords": [
+    "vue",
+    "video",
+    "srt",
+    "subtitle",
+    "vue3",
+    "player"
+  ],
+  "author": "Ali Arya <aryaeifar12@gmail.com>",
+  "homepage": "https://github.com/Aryaeifar/vue-srt-video-player#readme",
+  "bugs": {
+    "url": "https://github.com/Aryaeifar/vue-srt-video-player/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vue": "^3.0.0"
+  }
+}
