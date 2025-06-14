@@ -4,7 +4,7 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/vue-srt-video-player.svg)](https://www.npmjs.com/package/vue-srt-video-player)
 [![License](https://img.shields.io/npm/l/vue-srt-video-player.svg)](https://github.com/Ali-Arya/vue-srt-video-player/blob/main/LICENSE)
 
-A simple, dependency-free Vue 3 component for drawing, editing, and exporting polygons on an image. Built with the Composition API (`<script setup>`).
+A minimal, dependency-free Vue 3 video player that supports `.srt` subtitles and visual cue markers. Built with the Composition API and styled for plug-and-play use.
 
 ---
 
